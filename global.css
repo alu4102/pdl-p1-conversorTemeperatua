@@ -1,10 +1,10 @@
-#titulo     { color : red}
+#titulo     { color : red;}
 th, td      { vertical-align: top; text-align: right; font-size:large; }     /* Don't center table cells  */
 #converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
 input       { text-align: right;  border: none; font-size:large;       }     /* Align input to the right  */
 body
 {
- background-color:#b0c4de;  /* blue */
+ background-color:#C0C0C0;  /* blue */
  font-size:large;
 }
 
