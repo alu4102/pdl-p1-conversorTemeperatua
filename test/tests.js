@@ -5,10 +5,15 @@ suite('temperature', function() {
 		original.value = "32F";
 		calculate();
 		assert.deepEqual(converted.innerHTML, "0.0 Celsius");
-	})
+	});
 	test('45C = 113F' function() {
 		original.value = "45C";
 		calculate();
 		assert.deepEqual(convert.innerHTML, "113 Fahrenheit");
-	})
-}
+	});
+	test('5X = error', function() {
+        	original.value = "5X";
+        	calculate();
+        	assert.match(converted.innerHTML, /ERROR/);
+	});
+});
