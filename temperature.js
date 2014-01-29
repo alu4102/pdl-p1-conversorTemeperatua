@@ -21,6 +21,6 @@ function calculate() {
     converted.innerHTML = result;
   }
   else {
-    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
+    converted.innerHTML = "ERROR! Prueba algo como esto '-4.2C'";
   }
 }
